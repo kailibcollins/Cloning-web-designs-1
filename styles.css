@@ -1,0 +1,336 @@
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200%;
+  box-sizing: border-box;
+  background-color: rgb(247, 251, 252);
+  font: 75% georgia, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  min-height: 2800px;
+}
+
+#page-header {
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  color: rgb(2, 2, 73);
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #page-header {
+    font-size: 3rem;
+    top: 0%;
+  }
+}
+
+#page-header hr {
+  height: 0.2rem;
+  border: none;
+  background-color: rgb(204, 135, 135);
+}
+
+#phone {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  display: block;
+}
+
+#text-block-one {
+  position: relative;
+  top: 17.2%;
+  width: 100%;
+  height: 11%;
+  border-top: solid 0.4rem rgb(204, 135, 135);
+  border-bottom: solid 0.4rem rgb(235, 192, 192);
+  background-color: rgba(217, 226, 228, 0.95);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font: georgia, sans-serif;
+}
+
+.container {
+  position: relative;
+  display: block;
+  padding: 0.3rem;
+  width: 30%;
+  transform: translateY(-10%);
+  margin: 0.3rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+  color: rgb(36, 36, 41);
+  text-align: left;
+  font: georgia, sans-serif;
+}
+
+.container h2 {
+  font: italic normal 1.4em georgia, sans-serif;
+  font-size: 3rem;
+  color: rgb(204, 135, 135);
+  text-align: center;
+}
+
+#text-block-two {
+  position: relative;
+  top: 17.2%;
+  width: 100%;
+  height: 17%;
+  background-color: rgba(226, 237, 240, 0.99);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font: georgia, sans-serif;
+}
+
+.container-2 {
+  position: relative;
+  display: block;
+  padding: 0.3rem;
+  width: 30%;
+  transform: translateY(-10%);
+  margin: 0.3rem;
+}
+
+.container-2 p {
+  font-size: 1.5rem;
+  color: rgb(36, 36, 41);
+  text-align: left;
+}
+
+.container-2 h2 {
+  font: italic normal 1.4em georgia, sans-serif;
+  font-size: 3rem;
+  color: rgb(204, 135, 135);
+  text-align: left;
+}
+
+#medal {
+  position: relative;
+  width: 180px;
+  height: 310px;
+}
+
+#section-area {
+  position: relative;
+  top: 17%;
+  width: 100%;
+  height: 2%;
+  background-color: rgba(226, 237, 240, 0.97);
+}
+
+#section {
+  position: relative;
+  width: 50%;
+  height: 0.2rem;
+  border: none;
+  background-color: rgb(204, 135, 135, 0.97);
+}
+
+#text-block-three {
+  position: relative;
+  top: 16%;
+  width: 100%;
+  height: 17%;
+  border-bottom: solid 0.4rem rgb(235, 192, 192);
+  background-color: rgba(226, 237, 240, 0.99);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font: georgia, sans-serif;
+}
+
+.container-3 {
+  position: relative;
+  display: block;
+  padding: 0.3rem;
+  width: 30%;
+  margin: 0.3rem;
+  margin-top: 10rem;
+}
+
+.container-3 p {
+  font-size: 1.5rem;
+  color: rgb(36, 36, 41);
+  text-align: left;
+}
+
+.container-3 h2 {
+  font: italic normal 1.4em georgia, sans-serif;
+  font-size: 3rem;
+  color: rgb(204, 135, 135);
+  text-align: left;
+}
+
+#hands {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  margin-top: 10rem;
+}
+
+#text-block-four {
+  position: relative;
+  top: 16%;
+  width: 100%;
+  height: 15%;
+  border-bottom: solid 0.4rem rgb(204, 135, 135);
+  background-color: rgba(217, 226, 228, 0.95);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font: georgia, sans-serif;
+}
+
+.container-4 {
+  position: relative;
+  display: block;
+  padding: 0.3rem;
+  width: 50%;
+  margin: 0.3rem;
+}
+
+.container-4 p {
+  font-size: 1.5rem;
+  color: rgb(36, 36, 41);
+  text-align: center;
+}
+
+.container-4 h2 {
+  font: italic normal 1.4em georgia, sans-serif;
+  font-size: 3rem;
+  color: rgb(204, 135, 135);
+  text-align: center;
+}
+
+#text-block-five {
+  position: relative;
+  top: 16%;
+  width: 100%;
+  height: 21.3%;
+  background-color: rgb(221, 185, 185);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font: georgia, sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  #text-block-one {
+    flex-direction: column;
+    height: 25%;
+  }
+
+  .container p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .container {
+    margin-top: 0;
+    width: 40%;
+  }
+
+  .container h2 {
+    font-size: 2rem;
+  }
+
+  #text-block-two {
+    flex-direction: column;
+    height: 28%;
+  }
+
+  .container-2 {
+    margin-top: 0;
+    width: 40%;
+  }
+
+  .container-2 p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .container-2 h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #text-block-three {
+    flex-direction: column;
+    align-items: center;
+    height: 28%;
+  }
+
+  .container-3 {
+    margin-top: 0;
+    width: 40%;
+  }
+
+  .container-3 p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .container-3 h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #medal {
+    width: 150px;
+    height: 260px;
+  }
+
+  #hands {
+    width: 220px;
+    height: 170px;
+    margin-top: 0;
+  }
+
+  #text-block-four {
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+  }
+
+  .container-4 {
+    margin-top: 0;
+    width: 40%;
+  }
+
+  .container-4 p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .container-4 h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #text-block-five {
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+  }
+}
